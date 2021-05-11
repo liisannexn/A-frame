@@ -10,12 +10,39 @@
   <body>
     <a-scene background="color: #333333">
       <a-box id="myBox"
-        width="3"
-        height="2"
+        width="1"
+        height="0.5"
         depth="1"
-        color="#BBAA33" 
+        color="#BCE4E6"
+        position="0 1 -2"
+        rotation="-3 -4 -5"
+        scale="2 0.5 -2"
         shadow>
       </a-box>
+      <!-- cilinder -->
+      <a-cylinder
+      position="-0.1 1.4 -2"
+      radius="0.4"
+      height="1"
+      color="#D5F7D5">
+    </a-cylinder>
+      <!-- rondje -->
+    <a-sphere
+      position="0.4 1.32 -1.4"
+      radius="0.25"
+      color="#60A2AB">
+    </a-sphere>
+    <!-- kegel-->
+    <a-cone
+    color = "pink"
+    position="-0.5 1.5 -1.4"
+    radius-bottom = "0.3"
+    height="0.6"
+    radius-top = "0" > </a-cone >
+    <!-- lucht -->
+    <a-sky
+      color = "#F0D4B9">
+    </a-sky >
     </a-scene>
   </body>
 </html>
